@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+/* maim page css starts */
+.section1 {
+  height: 100%;
+  width: 100%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+nav h1 {
+  font-size: 30px;
+  font-family: sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.598);
+}
+nav h1 i {
+  display: inline-block;
+  rotate: 45deg;
+}
+.nav-part2 {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+  font-size: 20px;
+  font-family: monospace;
+}
+.nav-part2 h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.nav-part2 button {
+  background: transparent;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px black;
+}
+.center {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  padding: 30px 100px;
+}
+.center-part1 {
+  height: 100%;
+  width: 45%;
+}
+.center-part1 h1::selection{
+    background-color: greenyellow;
+    color: rgb(255, 255, 255);
+}
+.center-part1 h1 {
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 65px;
+}
+.center-part1 p {
+  font-size: 20px;
+  margin-top: 30px;
+  font-family: monospace;
+  color: #6c6868;
+}
+.center-part1 button {
+  padding: 10px 10px;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px black;
+  margin-top: 30px;
+  background: #000;
+  color: rgb(198, 198, 198);
+}
+.center-part2 {
+  height: 100%;
+  width: 65%;
+  position: relative;
+}
+.center-part2 img {
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+.section1bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 100px;
+}
+.section1bottom img {
+  height: 30px;
+  margin-top: 30px;
+}
+/* main page css end */
+
+.section2 .services {
+  width: 69%;
+  padding: 30px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.services h2 {
+  font-size: 30px;
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  background-color: #9ae975;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.632);
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+.services p {
+  font-size: 20px;
+  margin-top: 30px;
+  font-family: monospace;
+  color: #6c6868;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.elem{
+    flex-shrink:0;
+    height: 325px;
+    width: 48%;
+    border: 3px solid black;
+    border-radius: 30px;
+    box-shadow: 0px 20px 0px black;
+    margin-top: 60px;
+    padding: 35px;
+    display: flex;
+}
+.black{
+    background-color: black;
+}
+.elem-part1 h2{
+    font-size: 30px;
+    font-family: monospace;
+    background: #9AE975;
+}
+
+.elem-part2 h2{
+    font-size: 30px;
+    font-family: monospace;
+    background: white;
+}
+.elem-part1 h4 {
+    font-size: 0.8rem;
+    margin-top: 150px;
+}
+.elem-part1 h4 i{
+    background: black;
+    color: white;
+    font-size: 17px;
+    padding: 7px;
+    border-radius: 50%;
+}
+.elem-part2 h4 {
+    font-size: 0.8rem;
+    margin-top: 150px;
+    gap: 20px;
+    color: white;
+}
+.elem-part2 h4 i{
+    background: white;
+    color: black;
+    font-size: 17px;
+    padding: 7px;
+    border-radius: 50%;
+}
+#left1:hover{
+    box-shadow: 12px 12px 5px rgba(0, 0, 0, 0.553);
+    transition: all 0.4s ease ;
+    cursor: pointer;
+}
+#left2:hover{
+    transition: all 0.4s ease ;
+    box-shadow: 12px 12px 5px rgba(0, 0, 0, 0.553);
+    cursor: pointer;
+}
+#right1:hover{
+    box-shadow: 12px 12px 5px rgba(111, 240, 76, 0.553);
+    transition: all 0.4s ease ;
+    cursor: pointer;
+}
+#right2:hover{
+    box-shadow: 12px 12px 5px rgba(111, 240, 76, 0.553);
+    transition: all 0.4s ease ;
+    cursor: pointer;
+}
